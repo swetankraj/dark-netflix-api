@@ -14,8 +14,8 @@ app.get("/quote", (req, res) => {
 
 app.get("/quote/random", (req, res) => {
   const randomData = data[Math.floor(Math.random() * data.length)];
-  console.log(randomData);
+  //   console.log(randomData);
   res.status(200).json(randomData);
 });
 
-app.listen(5600);
+app.listen(process.env.PORT || 8080);
