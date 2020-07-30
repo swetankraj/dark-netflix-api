@@ -1,11 +1,10 @@
 const express = require("express");
-
 const data = require("./data/quotes.json");
-
+const path = require("path");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.status(200).send("Welcome to Dark-Netflix API.");
+  res.status(200).sendFile(path.join(__dirname + "/index.html"));
 });
 
 app.get("/quote", (req, res) => {
