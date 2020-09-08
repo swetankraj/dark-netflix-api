@@ -1,0 +1,39 @@
+[
+  {
+    "char_id": 1,
+    "name": "Jonas Kahnwald",
+    "born": "2003",
+    "occupation": [
+      "Student (formerly)",
+      "Time traveler",
+      "Leader of Sic Mundus (Old)"
+    ],
+    "img": "https://vignette.wikia.nocookie.net/dark-netflix/images/6/64/Profile_-_Jonas_2019.jpg",
+    "status": "Ceased to exist",
+    "aliases": ["The Stranger", "Adam"],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "Young": "Louis Hofmann",
+      "Adult": "Andreas Pietschmann",
+      "Old": "Dietrich Hollinderbaumer"
+    },
+    "first_appearance": "Secrets",
+    "residence": "Winden"
+  },
+  {
+    "char_id": 2,
+    "name": "Michael Kahnwald",
+    "born": "2008",
+    "occupation": ["Magician (formerly)", "Painter"],
+    "img": "http://vignette.wikia.nocookie.net/dark-netflix/images/2/28/Michael_2019.png",
+    "status": "Deceased/Ceased to exis",
+    "aliases": ["Mikkel Nielsen"],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "Young": "Daan Lennard Liebrenz",
+      "Adult": "Sebastian Rudolph"
+    },
+    "first_appearance": "Secrets",
+    "residence": "Winden"
+  }
+]
