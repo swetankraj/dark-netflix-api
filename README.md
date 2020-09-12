@@ -10,11 +10,8 @@ You will access to data about characters and quotes. The Dark Netflix API is fil
 ## Routes
 
 ### Quote 
-
-
-
 * [Get all quotes](docs/v1/quote/all.md) : `GET /quote`
-* [Get random quote] : `GET /quote/random`
+* [Get random quote](docs/v1/quote/random.md) : `GET /quote/random`
 
 ### Character
 Detailed info about Dark characters
