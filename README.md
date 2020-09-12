@@ -13,7 +13,7 @@ You will access to data about characters and quotes. The Dark Netflix API is fil
 
 
 
-* [Get all quotes]() : `GET /quote`
+* [Get all quotes](docs/v1/quote/all.md) : `GET /quote`
 * [Get random quote] : `GET /quote/random`
 
 ### Character
