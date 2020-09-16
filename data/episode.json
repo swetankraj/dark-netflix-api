@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Secrets",
+    "season": 1,
+    "episode": 1,
+    "air_date": "01-12-2017",
+    "characters": [
+      "Jonas Kahnwald",
+      "Hannah Kahnwald",
+      "Ulrich Nielsen",
+      "Peter Doppler",
+      "Ines Kahnwald",
+      "Katharina Nielsen",
+      "Mikkel Nielsen",
+      "Martha Nielsen",
+      "Magnus Nielsen",
+      "Bartosz Tiedemann",
+      "Charlotte Doppler",
+      "Franziska Doppler",
+      "Regina Tiedemann",
+      "Jana Nielsen",
+      "Helge Doppler",
+      "Aleksander Tiedemann"
+    ]
+  },
+  {
+    "title": "Lies",
+    "season": 1,
+    "episode": 2,
+    "air_date": "01-12-2017",
+    "characters": [
+      "The Stranger",
+      "Jonas Kahnwald",
+      "Hannah Kahnwald",
+      "Ulrich Nielsen",
+      "Peter Doppler",
+      "Katharina Nielsen",
+      "Mikkel Nielsen",
+      "Martha Nielsen",
+      "Magnus Nielsen",
+      "Bartosz Tiedemann",
+      "Charlotte Doppler",
+      "Franziska Doppler",
+      "Regina Tiedemann",
+      "Jana Nielsen",
+      "Aleksander Tiedemann",
+      "Tronte Nielsen",
+      "H.G. Tannhaus"
+    ]
+  }
+]
