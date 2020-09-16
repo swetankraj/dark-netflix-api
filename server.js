@@ -2,8 +2,9 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 
 process.on("uncaughtException", (error) => {
-  console.log("🚩 Uncaught exception! API is Shutting down ...");
+  console.log("⛏ Uncaught exception! API is Shutting down ...");
   console.log(error.name, error.message);
+  console.log(error.stack);
   process.exit(1); //1 denotes error (unsuccessful)
 });
 
@@ -39,7 +40,7 @@ const server = app.listen(port, () => {
 
 process.on("unhandledRejection", (error) => {
   console.log(error.name);
-  console.log(erorr.message);
+  console.log(error.message);
   console.log("🚩 Unhandled Rejection! API is Shutting down ...");
   server.close(() => {
     process.exit(1);

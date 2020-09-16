@@ -1,22 +1,23 @@
 const express = require("express");
-const characterController = require("../controllers/characterController");
+const episodeController = require("../controllers/episodeController");
 const authController = require("../controllers/authController");
 const router = express.Router();
 
-router.route("/").get(characterController.getAllCharacters);
-router.route("/random").get(characterController.getRandomCharacter);
+router.route("/").get(episodeController.getAllEpisodes);
+router.route("/random").get(episodeController.getRandomEpisode);
 
 router
   .route("/:id")
-  .get(characterController.getCharacter)
+  .get(episodeController.getEpisode)
   .patch(
+    authController.protect,
     authController.restrictTo("admin", "contr"),
-    characterController.updateCharacter
+    episodeController.updateEpisode
   )
   .delete(
     authController.protect,
     authController.restrictTo("admin", "contr"),
-    characterController.deleteCharacter
+    episodeController.deleteEpisode
   );
 
 module.exports = router;

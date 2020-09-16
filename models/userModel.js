@@ -3,7 +3,7 @@ const validator = require("validator"); //https://github.com/validatorjs/validat
 const bcrypt = require("bcryptjs");
 const crypto = require("crypto");
 
-const userSchema = new mongooose.Schema({
+const userSchema = new mongoose.Schema({
   name: {
     type: String,
     required: [true, "A user must have a name."],
@@ -69,10 +69,7 @@ userSchema.pre(/^find/, function (next) {
 });
 
 //* INSTANCE METHODS
-userSchema.methods.isPasswordCorrect = async function (
-  candidatePass,
-  userPass
-) {
+userSchema.methods.correctPassword = async function (candidatePass, userPass) {
   return await bcrypt.compare(candidatePass, userPass);
 };
 
@@ -88,3 +85,20 @@ userSchema.methods.changedPasswordAfter = function (JWTTimestamp) {
   // FASLE means not changed
   return false;
 };
+
+userSchema.methods.createPasswordResetToken = function () {
+  const resetToken = crypto.randomBytes(32).toString("hex");
+
+  this.passwordResetToken = crypto
+    .createHash("sha256")
+    .update(resetToken)
+    .digest("hex");
+
+  console.log(resetToken, this.passwordResetToken);
+  this.passwordResetExpires = Date.now() + 10 * 60 * 1000;
+
+  return resetToken;
+};
+
+const User = mongoose.model("User", userSchema);
+module.exports = User;
