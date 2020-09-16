@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Dark Netflix API</title>
+    <title>Dark Netflix API (Beta)</title>
     <style>
       body {
         margin: 5%;
@@ -8,28 +8,71 @@
     </style>
   </head>
   <body>
-    <h1>Welcome to Dark Netflix API.</h1>
+    <h1>Welcome to Dark Netflix API. (Beta)</h1>
     <br />
+    <h2>QUOTES</h2>
     <ul>
       <li><strong>/api/v1/quote</strong> - for entire Quotes data in JSON.</li>
+      <li><strong>/api/v1/quote/id</strong> - for Quote data by id in JSON.</li>
       <li>
         <strong>/api/v1/quote/random</strong> - for random (single) Quotes data
         in JSON.
       </li>
+      <li>
+        <strong>/api/v1/quote?author=Name+Surname</strong> - for entire Quotes
+        data by author in JSON.
+      </li>
+      <li>
+        <strong>/api/v1/quote/random?author=Name+Surname</strong> - for random
+        (single) Quotes data by author in JSON.
+      </li>
     </ul>
+    <h2>CHARACTERS</h2>
     <ul>
       <li>
         <strong>/api/v1/character</strong> - for entire Character data in JSON.
       </li>
       <li>
+        <strong>/api/v1/character/id</strong> - for Character data by id in
+        JSON.
+      </li>
+      <li>
         <strong>/api/v1/character/random</strong> - for random (single)
         Character data in JSON.
+      </li>
+      <li>
+        <strong>/api/v1/character?name=Name+Surname</strong> - for Character
+        data by name in JSON.
+      </li>
+    </ul>
+    <h2>EPISODES</h2>
+    <ul>
+      <li>
+        <strong>/api/v1/episode</strong> - for entire Episode data in JSON.
+      </li>
+      <li>
+        <strong>/api/v1/episode/id</strong> - for Episode data by id in JSON.
+      </li>
+      <li>
+        <strong>/api/v1/episode/random</strong> - for random (single) Episode
+        data in JSON.
+      </li>
+      <li>
+        <strong>/api/v1/episode?season=Number</strong> - for entire Episode data
+        by season in JSON.
+      </li>
+      <li>
+        <strong>/api/v1/episode/random?season=Number</strong> - for random
+        (single) Episode data by season in JSON.
       </li>
     </ul>
     <br />
     <p>
       👋 Developed by Swetank Raj.
-      <a href="https://github.com/swetankraj/dark-netflix-api">(github)</a>
+      <a
+        href="https://github.com/swetankraj/dark-netflix-api/tree/dark-api-beta"
+        >(github)</a
+      >
     </p>
   </body>
 </html>
