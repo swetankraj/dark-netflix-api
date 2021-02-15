@@ -52,5 +52,55 @@
     },
     "first_appearance": "Secrets",
     "residence": "Winden"
+  },
+  {
+    "char_id": 4,
+    "name": "Martha Nielsen",
+    "born": "2003",
+    "occupation": ["Student", "Leader of Erit Lux","Time traveler"],
+    "img": "https://vignette.wikia.nocookie.net/dark-netflix/images/2/29/Martha_Nielsen_from_ar.png/",
+    "status": "Deceased (obliterated by the God particle)/Deceased (shot by Adam)/Ceased to exist",
+    "aliases": ["Eva","Female Stranger"],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "Young": "Lisa Vicari",
+      "Adult": "Nina Kronjäger"
+      "Old": "Barbara Nüsse"
+    },
+    "first_appearance": "Secrets",
+    "residence": "Winden/ Eva's World"
+  },
+  {
+    "char_id": 5,
+    "name": "Claudia Tiedemann",
+    "born": "1942",
+    "occupation": ["Nuclear Plant Director (Retired)","Time traveler"],
+    "img": "https://vignette.wikia.nocookie.net/dark-netflix/images/1/18/Claudia_2019.png/",
+    "status": "Alive? (in origin world)",
+    "aliases": ["The White Devil"],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "Young": "Gwendolyn Göbel",
+      "Adult": "Julika Jenkins"
+      "Old": "Lisa Kreuzer"
+    },
+    "first_appearance": "Past and Present",
+    "residence": "Winden"
+  },
+  {
+    "char_id": 6,
+    "name": "Hanno Tauber",
+    "born": "1904",
+    "occupation": ["Priest"],
+    "img": "https://vignette.wikia.nocookie.net/dark-netflix/images/5/5a/Closeup_-_Noah.jpg/",
+    "status": "Deceased/Ceased to exist",
+    "aliases": ["Noah"],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "Young": "Max Schimmelpfennig",
+      "Adult": "Mark Waschke"
+    },
+    "first_appearance": "Secrets",
+    "residence": "Winden/Vechta"
   }
 ]
